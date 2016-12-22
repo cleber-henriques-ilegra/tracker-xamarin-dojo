@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Tracker.NewTrackingPage">
+	<ContentPage.Content>
+		<StackLayout 
+				Padding="15" 
+				Orientation="Vertical">
+			<Label Text="Code" 
+				VerticalOptions="Start" 
+				HorizontalOptions="Fill" 
+				Margin="0, 4" />
+			<Entry
+				VerticalOptions="Start"
+				HorizontalOptions="Fill"
+				Margin="0, 4" />
+			<Label Text="Description" 
+				VerticalOptions="Start" 
+				HorizontalOptions="Fill" 
+				Margin="0, 4" />
+			<Entry
+				VerticalOptions="Start"
+				HorizontalOptions="Fill"
+				Margin="0, 4" />
+			<Button 
+				Text="Track"/>
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>
